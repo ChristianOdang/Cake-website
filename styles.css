@@ -279,3 +279,31 @@ section {
 .banner-container .banner:hover img {
     transform: scale(1.2);
 }
+
+.category .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.5rem;
+    padding: 4rem 0;
+}
+
+.category .box-container .box {
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border: 0.1rem solid rgba(0, 0, 0, 0.7);
+}
+
+.category .box-container .box img {
+    height: 15rem;
+    width: 21rem;
+}
+
+.category .box-container .box h3 {
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #222;
+}
+
+.category .box-container .box:hover h3 {
+    color: #be9393;
+}
