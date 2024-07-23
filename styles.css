@@ -22,7 +22,7 @@ body {
 }
 
 .btn {
-    margin-top: 1rem;
+    margin-top: 3rem;
     display: inline-block;
     padding: .8rem 3rem;
     background: var(--color);
@@ -183,12 +183,15 @@ section {
 .home .slides-container .slide .content span {
     color: #000;
     font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
 }
 
 .home .slides-container .slide .content h3 {
-    font-size: 6rem;
-    color: #222;
+    font-size: 5rem;
+    color: #000;
     padding: .5rem 0;
+    text-align: center;
 }
 
 .home .slides-container .slide .img {
@@ -204,7 +207,7 @@ section {
 .home #next-slide,
 .home #prev-slide {
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     height: 5rem;
     width: 5rem;
@@ -226,11 +229,11 @@ section {
 }
 
 .home #prev-slide {
-    left: 2rem;
+    left: 1rem;
 }
 
 .home #next-slide {
-	right: 2rem;
+	right: 1rem;
 }
 
 .banner-container {
@@ -631,7 +634,7 @@ section {
         top: 60px;
         left: 0;
         width: 100%;
-        background-color: #941d576a;
+        background-color: #b17c7c;
 		border: 1px solid #941d576a;
 		z-index: 1000;
     }
