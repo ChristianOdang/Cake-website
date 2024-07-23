@@ -204,7 +204,7 @@ section {
 .home #next-slide,
 .home #prev-slide {
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     height: 5rem;
     width: 5rem;
@@ -631,7 +631,7 @@ section {
         top: 60px;
         left: 0;
         width: 100%;
-        background-color: #941d576a;
+        background-color: #b17c7c;
 		border: 1px solid #941d576a;
 		z-index: 1000;
     }
