@@ -53,10 +53,11 @@ section {
 .heading {
     background: url(images/image11_100.png) no-repeat;
     background-size: cover;
+    background-size: 50%;
     background-position: center;
     text-align: center;
-    padding-top: 12rem;
-    padding-bottom: 8rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.7);
 }
 
@@ -648,4 +649,12 @@ section {
         text-decoration: none;
         color: #000;
     }
+
+    .navbar a:hover {
+		background-color: #941d56ab;
+	}
+
+	.hamburger {
+		display: flex;
+	}
 }
